@@ -10,21 +10,11 @@
 ![encoder](https://img.shields.io/badge/encoder-mHuBERT--147%20(frozen)-9333ea)
 ![license](https://img.shields.io/badge/license-MIT-blue)
 
-Model 4 of 5 in the **QDF research series** by **Evan Deep** (Qassim DeepFake Challenge 2026, audio track)
+Model 4 of 5 in the **QDF research series** by **Evan Deep**
 
 [Problem](#1-problem) · [Channels](#2-seven-channels) · [Method](#3-method) · [Results](#4-results) · [Limits](#5-limits) · [Reproduce](#6-reproduce)
 
 </div>
-
----
-
-> ### ملخّص بالعربية
-> النموذج الثالث ممتاز على الصوت النظيف (0.77% خطأ)، لكن المكالمة الاحتيالية الحقيقية تصل عبر **واتساب أو خط هاتف أو بعد إعادة رفعها، وأحيانًا تُشغَّل من سمّاعة وتُسجَّل من جديد**. بنينا محاكيًا لسبع قنوات واقعية ودرّبنا الكاشف على الصوت بعد مروره بها.
-> * متوسط الخطأ عبر القنوات السبع انخفض من **10.7% إلى 4.8%**.
-> * **إعادة التسجيل من سمّاعة** (أصعب حالة): من 37.3% إلى **16.9%**.
-> * **الضوضاء الخلفية**: من 27.0% إلى **8.6%**.
-> * على بيانات **ArA-DF Track 2** (قنوات حقيقية لم يرها النموذج): من 26.7% إلى **20.6%**.
-> * **ما لم يُحَلّ بعد:** المولّدات غير المعروفة (ArAD/RVC) ما زالت عند ~38%، وإعادة التسجيل ما زالت أضعف نقطة. لذلك كتبنا [بروتوكولًا لتسجيل بيانات إعادة تشغيل حقيقية](docs/REPLAY_PROTOCOL.md).
 
 ---
 
@@ -146,7 +136,7 @@ qdf-04-channel-robust/
   title  = {QDF-04: Channel-Robust Arabic Deepfake Voice Detection},
   author = {Evan Deep},
   year   = {2026},
-  note   = {Model 4 of the QDF research series, Qassim DeepFake Challenge}
+  note   = {Model 4 of the QDF research series}
 }
 ```
 Code: MIT. mHuBERT-147 weights and all datasets keep their own licences.

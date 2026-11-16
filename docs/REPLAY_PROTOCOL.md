@@ -2,8 +2,6 @@
 
 Replay (play a voice note through a loudspeaker and re-record it) is the weakest condition in Model 4: **16.9 % EER**, compared with ≤ 2.5 % for every codec. The replay in our training is **simulated**. This protocol describes how a small team can collect **real** replay data in a few hours, so that the simulation can be checked and the model fine-tuned.
 
-> **بالعربية:** هذا بروتوكول لتسجيل بيانات "إعادة تشغيل" حقيقية: نشغّل مقاطع صوتية (حقيقية ومزيفة) من جوال أو سمّاعة، ونعيد تسجيلها بجوال آخر في غرف مختلفة. الهدف معرفة هل محاكاتنا واقعية، وتحسين الكاشف على أصعب حالة.
-
 ## 1. Source material
 * Use only **public dataset utterances** (ArA-DF-2026 dev: equal numbers of bona fide and spoof, Gulf + Egyptian). **Do not record or replay the voices of private people.**
 * 200 utterances (100 real, 100 fake) are enough for a first measurement. Use the list in `aradf_dev_channel_subset.json` so results compare directly with the simulated channels.
