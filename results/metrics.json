@@ -1,0 +1,172 @@
+{
+  "per_condition": {
+    "clean": {
+      "clean_trained (= Model 3)": {
+        "eer": 0.008000000000000004,
+        "eer_threshold": 2.467078924179077,
+        "auc": 0.9997724444444445,
+        "n": 1500,
+        "n_fake": 750,
+        "n_real": 750
+      },
+      "channel_robust (Model 4)": {
+        "eer": 0.006666666666666689,
+        "eer_threshold": 6.131282329559326,
+        "auc": 0.9996355555555556,
+        "n": 1500,
+        "n_fake": 750,
+        "n_real": 750
+      }
+    },
+    "whatsapp_opus": {
+      "clean_trained (= Model 3)": {
+        "eer": 0.022666666666666675,
+        "eer_threshold": -4.253941535949707,
+        "auc": 0.998311111111111,
+        "n": 1500,
+        "n_fake": 750,
+        "n_real": 750
+      },
+      "channel_robust (Model 4)": {
+        "eer": 0.015333333333333359,
+        "eer_threshold": 4.177440166473389,
+        "auc": 0.9987964444444445,
+        "n": 1500,
+        "n_fake": 750,
+        "n_real": 750
+      }
+    },
+    "phone_g711": {
+      "clean_trained (= Model 3)": {
+        "eer": 0.03666666666666668,
+        "eer_threshold": -4.062667369842529,
+        "auc": 0.9929475555555556,
+        "n": 1500,
+        "n_fake": 750,
+        "n_real": 750
+      },
+      "channel_robust (Model 4)": {
+        "eer": 0.024666666666666677,
+        "eer_threshold": 3.2811057567596436,
+        "auc": 0.996936888888889,
+        "n": 1500,
+        "n_fake": 750,
+        "n_real": 750
+      }
+    },
+    "mp3_32k": {
+      "clean_trained (= Model 3)": {
+        "eer": 0.020666666666666673,
+        "eer_threshold": -6.278751373291016,
+        "auc": 0.9983306666666667,
+        "n": 1500,
+        "n_fake": 750,
+        "n_real": 750
+      },
+      "channel_robust (Model 4)": {
+        "eer": 0.015333333333333341,
+        "eer_threshold": 4.219665050506592,
+        "auc": 0.9992088888888889,
+        "n": 1500,
+        "n_fake": 750,
+        "n_real": 750
+      }
+    },
+    "aac_32k": {
+      "clean_trained (= Model 3)": {
+        "eer": 0.02066666666666666,
+        "eer_threshold": -9.045756340026855,
+        "auc": 0.9974026666666667,
+        "n": 1500,
+        "n_fake": 750,
+        "n_real": 750
+      },
+      "channel_robust (Model 4)": {
+        "eer": 0.02000000000000001,
+        "eer_threshold": 3.0374698638916016,
+        "auc": 0.998864,
+        "n": 1500,
+        "n_fake": 750,
+        "n_real": 750
+      }
+    },
+    "replay": {
+      "clean_trained (= Model 3)": {
+        "eer": 0.3726666666666667,
+        "eer_threshold": -21.53961753845215,
+        "auc": 0.6717226666666667,
+        "n": 1500,
+        "n_fake": 750,
+        "n_real": 750
+      },
+      "channel_robust (Model 4)": {
+        "eer": 0.16933333333333334,
+        "eer_threshold": 2.2726786136627197,
+        "auc": 0.9108924444444444,
+        "n": 1500,
+        "n_fake": 750,
+        "n_real": 750
+      }
+    },
+    "noisy": {
+      "clean_trained (= Model 3)": {
+        "eer": 0.27,
+        "eer_threshold": -21.397775650024414,
+        "auc": 0.8124640000000001,
+        "n": 1500,
+        "n_fake": 750,
+        "n_real": 750
+      },
+      "channel_robust (Model 4)": {
+        "eer": 0.08600000000000002,
+        "eer_threshold": 3.2120039463043213,
+        "auc": 0.9757866666666667,
+        "n": 1500,
+        "n_fake": 750,
+        "n_real": 750
+      }
+    }
+  },
+  "external": {
+    "aradf_track2": {
+      "clean_trained (= Model 3)": {
+        "eer": 0.26739479548313605,
+        "eer_threshold": -22.053319931030273,
+        "auc": 0.822726990596132,
+        "n": 2500,
+        "n_fake": 1897,
+        "n_real": 603
+      },
+      "channel_robust (Model 4)": {
+        "eer": 0.20614027035792745,
+        "eer_threshold": -11.634251594543457,
+        "auc": 0.8839784559892507,
+        "n": 2500,
+        "n_fake": 1897,
+        "n_real": 603
+      }
+    },
+    "arad": {
+      "clean_trained (= Model 3)": {
+        "eer": 0.3855286414513185,
+        "eer_threshold": -10.681544303894043,
+        "auc": 0.6574744945654583,
+        "n": 1988,
+        "n_fake": 1679,
+        "n_real": 309
+      },
+      "channel_robust (Model 4)": {
+        "eer": 0.37871883980871646,
+        "eer_threshold": -6.968439102172852,
+        "auc": 0.6618151889609126,
+        "n": 1988,
+        "n_fake": 1679,
+        "n_real": 309
+      }
+    }
+  },
+  "mean_eer_over_channels::clean_trained (= Model 3)": 0.10733333333333335,
+  "worst_eer_over_channels::clean_trained (= Model 3)": 0.3726666666666667,
+  "mean_eer_over_channels::channel_robust (Model 4)": 0.04819047619047621,
+  "worst_eer_over_channels::channel_robust (Model 4)": 0.16933333333333334
+}
